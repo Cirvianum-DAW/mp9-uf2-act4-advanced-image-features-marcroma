@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ex. 7</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 7 + 8</title>
     <style>
-      figure {
-        border: 1px solid #ddd;
-        padding: 10px;
-      }
-      figcaption {
-        text-align: center;
-        font-size: 20px;
-      }
+        figure {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        figcaption {
+            text-align: center;
+            font-size: 20px;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <figure>
-      <img
-        src="https://images.pexels.com/photos/20623968/pexels-photo-20623968/free-photo-of-a-robin-sits-on-top-of-a-bush-in-autumn.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-        alt="Robin sits on top of a bush in Autumn."
-      />
-      <figcaption>Robin sits on top of a bush in Autumn.</figcaption>
+        <picture>
+            <source media="(min-width: 650px)" srcset="https://images.pexels.com/photos/19988875/pexels-photo-19988875/free-photo-of-yagmur-altinda-mercedes-benz.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="The headlights of an antique car.">
+            <source media="(min-width: 465px)" srcset="https://images.pexels.com/photos/17528288/pexels-photo-17528288/free-photo-of-jaguar-lying-on-tree-log.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="A cheetah rests their head on a log.">
+            <img src="https://images.pexels.com/photos/20623968/pexels-photo-20623968/free-photo-of-a-robin-sits-on-top-of-a-bush-in-autumn.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Robin sits on top of a bush in Autumn.">
+        </picture>
+        <figcaption>Robin sits on top of a bush in Autumn.</figcaption>
     </figure>
 
     <h1>
@@ -33,5 +34,5 @@
         their caption. The "figcaption" element is used to provide a caption for
         the content inside the "figure" element.
     </p>
-  </body>
+</body>
 </html>
