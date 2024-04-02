@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Ex. 4</title>
     <style>
       img {
@@ -12,39 +13,64 @@
     </style>
   </head>
   <body>
-      <img
-        src="https://images.pexels.com/photos/8500505/pexels-photo-8500505.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
-        usemap="#image-map"
+    <div>
+      <nav class="bg-black p-5">
+        <ul class="flex justify-center">
+          <li class="mx-5">
+            <a href="index.html" class="text-white">Home</a>
+          </li>
+          <li class="mx-5">
+            <a href="basic_image.html" class="text-white">EX 1-2</a>
+          </li>
+          <li class="mx-5">
+            ><a href="resolution_switching.html" class="text-white">EX 3</a>
+          </li>
+          <li class="mx-5">
+            <b><a href="image_alignment.html" class="text-white">EX 4-5</a></b>
+          </li>
+          <li class="mx-5">
+            <a href="image-gallery.html" class="text-white">EX 6</a>
+          </li>
+          <li class="mx-5">
+            <a href="figure_picutre.html" class="text-white">EX 7-8</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <img
+      src="https://images.pexels.com/photos/8500505/pexels-photo-8500505.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=600&amp;lazy=load"
+      usemap="#image-map"
+    />
+
+    <map name="image-map">
+      <area
+        target=""
+        alt="Belgian Hre"
+        title="Belgian Hre"
+        href="https://en.wikipedia.org/wiki/Belgian_Hare"
+        coords="331,569,41"
+        shape="circle"
       />
+      <area
+        target=""
+        alt="Netherland Dwarf Rabbit"
+        title="Netherland Dwarf Rabbit"
+        href="https://en.wikipedia.org/wiki/Netherland_Dwarf_rabbit"
+        coords="391,571,519,630"
+        shape="rect"
+      />
+    </map>
 
-      <map name="image-map">
-        <area
-          target=""
-          alt="Belgian Hre"
-          title="Belgian Hre"
-          href="https://en.wikipedia.org/wiki/Belgian_Hare"
-          coords="331,569,41"
-          shape="circle"
-        />
-        <area
-          target=""
-          alt="Netherland Dwarf Rabbit"
-          title="Netherland Dwarf Rabbit"
-          href="https://en.wikipedia.org/wiki/Netherland_Dwarf_rabbit"
-          coords="391,571,519,630"
-          shape="rect"
-        />
-      </map>
-
-      <h1>
-        How does the max-width property help make images responsive? Write a
-        brief explanation in the HTML file.
-      </h1>
-      <p>
-        The max-width property helps make images responsive by setting the
-        maximum width of the image to 100% of the parent element. This means
-        that the image will never exceed the width of the parent element, making
-        it responsive to different screen sizes and devices.
-      </p>
+    <h1>
+      How does the max-width property help make images responsive? Write a brief
+      explanation in the HTML file.
+    </h1>
+    <p>
+      The max-width property helps make images responsive by setting the maximum
+      width of the image to 100% of the parent element. This means that the
+      image will never exceed the width of the parent element, making it
+      responsive to different screen sizes and devices.
+    </p>
   </body>
 </html>
